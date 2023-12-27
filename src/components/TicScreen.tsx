@@ -10,6 +10,7 @@ export const TicScreen: React.FC = () => {
   }, [items]);
 
   const clickHandler = (idx: number) => {
+    if (items[idx]) return;
     if (turn) {
       setItems((prevItems) => {
         const tmpArr = [...prevItems];
