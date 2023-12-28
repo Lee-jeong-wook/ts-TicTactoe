@@ -15,9 +15,9 @@ export const TicItems: React.FC<TicItemsProps> = ({ value, onClick }) => {
 };
 
 const StyledItem = styled.div`
-  font-size: 50px;
-  line-height: 50px;
-  width: 50px;
-  height: 50px;
+  font-size: 100px;
+  line-height: 300px;
+  width: 250px;
+  height: 250px;
   border: 1px solid #000;
 `;
