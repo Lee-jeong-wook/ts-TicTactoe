@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { TicItems } from "./TicItems";
 
 export const TicScreen: React.FC = () => {
-  const [items, setItems] = useState<number[]>([1, 0, 0, 0, 0, 0, 0, 0, 0]);
+  const [items, setItems] = useState<number[]>([0   , 0, 0, 0, 0, 0, 0, 0, 0]);
   const [turn, setTurn] = useState<boolean>(false);
 
   useEffect(() => {
